@@ -109,6 +109,7 @@ const osm = {
     口罩剩餘：<strong>成人 - ${item.mask_adult ? `${item.mask_adult} 個` : '未取得資料'}/ 兒童 - ${item.mask_child ? `${item.mask_child} 個` : '未取得資料'}</strong><br>
     地址: <a href="https://www.google.com.tw/maps/place/${item.address}" target="_blank">${item.address}</a><br>
     電話: ${item.phone}<br>
+    備註: ${item.note}<br>
     <small>最後更新時間: ${item.updated}</small>`).openPopup();
   },
 };
